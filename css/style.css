@@ -1,6 +1,23 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fafafa;
+  color: black;
+  font-size: 16px;
+  font-family: serif, san-serif;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 50px;
+}
+
+p {
+  font-size: 100%;
+}
+
+figcaption {
+  font-size: 85%;
+  font-style: italic;
+  line-height: 100%;
 }
 
 nav {
@@ -8,6 +25,10 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+.author {
+  font-style: oblique;
 }
 
 .logo {
@@ -20,7 +41,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 75%;
 }
 
 .left, .right {
@@ -35,7 +56,7 @@ nav {
 ul {
   list-style-type: none;
   float: right;
-}
+  }
 
 li {
   float: right;
@@ -47,6 +68,28 @@ article {
 }
 
 .container {
+  line-height: 2em;
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+
+  text-decoration: none;
+}
+
+a:link {
+  color:#0070BB;
+  } /* unvisited */
+
+a:visited {
+  color:white;
+  } /* visited */
+
+a:hover {
+  color:#0070BC;
+  } /* mouse over */
+
+a:active {
+   color:#0070BD;
+   } /* selected */
